@@ -56,35 +56,35 @@
             app:layout_constraintTop_toTopOf="@+id/ivHomeTeam" />
 
         <ImageView
-            android:id="@+id/ivVisitingTeam"
+            android:id="@+id/ivAwayTeam"
             android:layout_width="@dimen/team_image_size"
             android:layout_height="@dimen/team_image_size"
             android:layout_marginTop="@dimen/margin_default"
             android:layout_marginEnd="@dimen/margin_default"
-            android:contentDescription="@string/cd_visitor_team"
+            android:contentDescription="@string/cd_away_team"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/tvVisitingTeamName"
+            android:id="@+id/tvAwayTeamName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_default"
-            app:layout_constraintEnd_toEndOf="@+id/ivVisitingTeam"
-            app:layout_constraintStart_toStartOf="@+id/ivVisitingTeam"
-            app:layout_constraintTop_toBottomOf="@+id/ivVisitingTeam"
+            app:layout_constraintEnd_toEndOf="@+id/ivAwayTeam"
+            app:layout_constraintStart_toStartOf="@+id/ivAwayTeam"
+            app:layout_constraintTop_toBottomOf="@+id/ivAwayTeam"
             tools:text="Visiting Team" />
 
         <TextView
-            android:id="@+id/tvVisitingTeamScore"
+            android:id="@+id/tvAwayTeamScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            app:layout_constraintBottom_toBottomOf="@+id/ivVisitingTeam"
-            app:layout_constraintEnd_toStartOf="@+id/ivVisitingTeam"
+            app:layout_constraintBottom_toBottomOf="@+id/ivAwayTeam"
+            app:layout_constraintEnd_toStartOf="@+id/ivAwayTeam"
             app:layout_constraintStart_toEndOf="@+id/tvVersus"
-            app:layout_constraintTop_toTopOf="@+id/ivVisitingTeam"
+            app:layout_constraintTop_toTopOf="@+id/ivAwayTeam"
             tools:text="99" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
