@@ -8,3 +8,5 @@ Este repositório é organizados em branches que represetam implementações rea
     - [release/componentes-layouts-ui-ux-em-apps-android](https://github.com/83Rafa/matches-simulator-app/tree/release/componentes-layouts-ui-ux-em-apps-android)
 3. App Android, Kotlin e Java juntos
     - [release/java-e-kotlin-construindo-app-android](https://github.com/83Rafa/matches-simulator-app/tree/release/java-e-kotlin-construindo-app-android)
+4. Explorando o Firebase Para Apps Android Resilientes
+    - [release/explorando-o-firebase-para-apps-android-resilientes](https://github.com/83Rafa/matches-simulator-app/tree/release/explorando-o-firebase-para-apps-android-resilientes)
