@@ -31,6 +31,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/cd_simulate"
+        app:tint="@color/primary_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_simulate" />
